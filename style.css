@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.top-section {
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 33px;
+}
+
+h1 {
+    width: 448px;
+    height: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+h2 {
+    width: 346px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 31px;
+    margin-bottom: 9px;
+    
+/* or 100% */
+    text-align: center;
+    color: #CCC1FF;
+}
+
+p {
+
+}
+
+#inputEl {
+    height: 83px;
+    width: 117px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 58px;
+    font-style: normal;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #6943FF;
+}
+
+button {
+    height: 42px;
+    width: 117px;
+    border-radius: 5px;
+    margin-top: 27px;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+
+/* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.bottom-section {
+    height: 450px;
+    width: 550px;
+    border-radius: 0px;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.cards {
+    width: 500px;
+    height: 109px;
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-card {
+    width: 346px;
+    height: 59px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+/* or 143% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
